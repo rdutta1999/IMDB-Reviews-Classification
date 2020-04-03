@@ -8,3 +8,5 @@ We then used the **encoder** of this language model to create and train a **Clas
 
 **final_trained_language_model.pkl**: Trained Language Model exported for inferences purposes.
 **final_trained_language_classifier.pkl**: Trained Language Classifier exported for inferences purposes.
+
+While finetuning the language classifier, we choose our learning rates from the learning rate finder, and we divided the first part of the slice with a factor (**2.6^4**) based on the [ULMFiT paper](https://arxiv.org/abs/1801.06146) written by **Jeremy Howard** and **Sebastian Ruder**.
