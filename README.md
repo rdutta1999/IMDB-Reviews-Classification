@@ -1,7 +1,7 @@
 # IMDB-Reviews-Classification
 Creating a AWD-LSTM based classifier for classifying movie reviews from the IMDB dataset
 
-Library used: **Fastai**
+Library used: **Fastai** (1.0.60)
 
 We have first trained a **Language Model** using the entire IMDB dataset, and set aside 15% (randomly chosen) of all the text files in the 'train','test' and 'unsup' folders as the validation set for this purpose.
 We then used the **encoder** of this language model to create and train a **Classifier** that predicts the classes ['pos'/'neg'] of each movie review.
